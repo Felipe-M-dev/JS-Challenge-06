@@ -1,7 +1,5 @@
 const clp = document.getElementById("clp");
 const urlAPI = "https://mindicador.cl/api";
-const dolar = "https://mindicador.cl/api/dolar";
-const euro = "https://mindicador.cl/api/euro";
 const result = document.getElementById("result");
 const tabla = document.getElementById("lista-usuario");
 const coin = document.getElementById("coin");
