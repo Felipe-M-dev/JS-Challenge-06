@@ -21,17 +21,18 @@
             <div class="converter">
                 
                 <h3>Pesos CLP</h3>
-                <input type="text" id="clp" placeholder="Ingrese monto en CLP"">
+                <input type="text" id="clp" placeholder="Ingrese monto en CLP">
 
                 <p id="amount">Moneda a convertir:</p>
                 <select id="coin">
+                    <option selected="selected" disabled="disabled">Seleccione moneda</option>
                     <option value="dolar">Dolar</option>
                     <option value="euro">Euro</option>
                 </select>
                 <br>
                 <button type="button" id="search-btn" onclick="convert()">Buscar</button>
 
-                <p id="result">Resultado:</p>
+                <p id="result">...</p>
 
             </div>
         </div>
